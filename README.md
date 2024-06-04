@@ -59,7 +59,7 @@ A tribute page dedicated to [Martin Luther King Jr], showcasing their biography,
 - The page adjusts to different screen sizes for optimal viewing.
 
 
-![Login Page](https://github.com/yourusername/login-authentication-form/blob/main/images/login-page.png)
+![Tribute Page](tribute-page/tribute-page.mp4)
 ---
 
 ### Todo Webapp
