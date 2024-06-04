@@ -92,7 +92,7 @@ A dynamic todo web application built using HTML, CSS, and JavaScript. It allows 
 - The tasks will be saved in local storage, so they persist even after refreshing the page.
 
 
-![Calculator](todo-webapp/images/todo-webapp.png)
+![Todo Webapp](todo-webapp/images/todo-webapp.png)
 ---
 
 ### Login Authentication Form
@@ -112,5 +112,5 @@ A login authentication form built with Java. It includes form validation and use
 - Enter a valid email and password to authenticate.
 - The form will provide feedback if inputs are invalid or if authentication fails.
 
-![Login Page](https://github.com/yourusername/login-authentication-form/blob/main/images/login-page.png)
+![Login Form](Form/login-form.png)
 
