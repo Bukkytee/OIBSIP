@@ -56,8 +56,6 @@ A tribute page dedicated to [Martin Luther King Jr], showcasing their biography,
 - Navigate through the content to learn about [Martin Luther King Jr].
 - The page adjusts to different screen sizes for optimal viewing.
 
-Sure, I'll update the README files for the Todo Webapp and the Login Authentication Form accordingly:
-
 ---
 
 ### Todo Webapp
