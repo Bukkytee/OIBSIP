@@ -30,7 +30,7 @@ A simple, fully functional calculator built using HTML, CSS, and JavaScript. It 
 - Use the clear (`C`) button to reset the calculator.
 
 
-![Calculator](https://github.com/yourusername/login-authentication-form/blob/main/images/login-page.png)
+![Calculator](calculator/img/calculator.png)
 ---
 
 ### Tribute Page
