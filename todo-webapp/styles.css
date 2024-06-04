@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    overflow: auto;
+
+}
+body{
+    font-family: Inter;
+    background: url(./images/bg-image.svg) no-repeat center center fixed;
+    background-size: cover;
+    font-size: 1rem;
+    min-height: 100vh;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+
+::-webkit-scrollbar-track {
+    background: #006D66; 
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #084b4b; 
+    border-radius: 10px; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+h1{
+    text-align: center;
+    color: #c0ded8;
+    margin-top: 2rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 30% 65%;
+    grid-column-gap: 5%;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1.2rem 2rem;
+    margin-top: 2rem;
+}
+
+.add-task-section{
+    border: solid 1px #eeeeee5c;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+}
+
+h2{
+    text-align: center;
+    color: #c0ded8;
+    margin-top: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem 2rem;
+}
+
+.form-control{
+    margin: 1rem 0;
+    padding: 1rem 1.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    outline: none;
+}
+
+textarea{
+    resize: vertical;
+    height: 20vh;
+    font-family: Inter;
+}
+
+#task-btn{
+    background-color: #006D66;
+    color: #eee;
+    margin: 1rem 0;
+    padding: 1rem 1.5rem;
+    border-radius: 0.4rem;
+    border: none;
+}
+
+.view-task-section{
+    border: solid 1px #eeeeee5c;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: 10% 80%;
+}
+h3{
+    color: #c0ded8;
+    text-align: center;
+    margin: 20px 0;
+}
+.list table{
+    width: 100%;
+    color: #eee;
+    /* border: solid 1px #eee; */
+}
+
+th{
+    text-align: center;
+}
+
+/* #pending-list table, #complete-list table{
+    display: none;
+} */
+
+.filter-section{
+    color: #eee;
+
+    /* border: solid 1px #eee; */
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+#filter{
+    width: 50%;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    appearance: none;
+    margin: 0 0.5rem;
+    background-color: #006d6614;
+    border: solid 1px #eeeeee5a;
+    color: #eee;
+    outline: none;
+}
+
+#filter option{
+    color: #333;
+}
+
+.view-task-btn {
+    padding: 8px 24px;
+    border-radius: 0.4rem;
+    background-color: #006d6600;
+    border: solid 2px #006D66;
+    color: #006D66;
+    font-weight: 700;
+    margin: 1rem 0;
+    font-size: 0.75rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    /* margin: 1rem; */
+}
+
+.edit-btn:hover{
+    background-color: rgb(208, 134, 23);
+    border-color: rgb(208, 134, 23);
+    color: #f0f0f0;
+}
+
+.delete-btn:hover{
+    background-color: rgba(208, 23, 23);
+    border-color: rgb(208, 23, 23);
+    color: #f0f0f0;
+}
+
+.complete-btn:hover{
+    background-color: #006D66;
+    color: #f0f0f0;
+}
+
+#task-list tr td{
+    text-align: center;
+}
+
+#task-list tr td:nth-child(4) {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        transform: scale(0.8); 
+        transform-origin: top left;
+        width: 125%; 
+        height: 125%;
+        margin-top: 2.1rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        transform: scale(0.6); 
+        transform-origin: top left;
+        width: 165%;
+        height: 165%;
+        margin-top: 0.5rem;
+    }
+
+    h1{
+        transform: scale(0.6);
+    }
+}
+
+@media screen and (max-width: 430px) {
+    body{
+        max-height: 830px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .add-task-section, .view-task-section {
+        width: 100%;
+        margin-bottom: 6rem;
+    }
+
+    .view-task-section{
+        padding: 2rem 1rem;
+    }
+
+    .filter-section{
+        padding: 0 1.5rem;
+    }
+    
+    .form-control, #task-btn, #filter {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+        padding: 0.75rem 1rem; /* Adjust padding for smaller screens */
+    }
+
+    h1, h2, h3 {
+        font-size: 1.2rem; /* Adjust heading size for smaller screens */
+    }
+
+    #task-btn, .view-task-btn {
+        padding: 0.75rem 1rem; /* Adjust button padding for smaller screens */
+    }
+
+    #task-list tr td:nth-child(4) {
+        flex-direction: column; /* Stack action buttons vertically */
+        padding-left: 0;
+    }
+
+    #task-list tr td {
+        padding: 0.5rem; /* Adjust cell padding for smaller screens */
+    }
+}
