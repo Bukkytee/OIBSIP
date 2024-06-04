@@ -59,9 +59,9 @@ A tribute page dedicated to [Martin Luther King Jr], showcasing their biography,
 - The page adjusts to different screen sizes for optimal viewing.
 
 
-![Tribute Page 1](tribute-page/images/tribute-img-1)
-![Tribute Page 2](tribute-page/images/tribute-img-2)
-![Tribute Page 3](tribute-page/images/tribute-img-3)
+![Tribute Page 1](tribute-page/images/tribute-img-1.png)
+![Tribute Page 2](tribute-page/images/tribute-img-2.png)
+![Tribute Page 3](tribute-page/images/tribute-img-3.png)
 ---
 
 ### Todo Webapp
