@@ -1,0 +1,81 @@
+<!-- Divide the calculator card into two
+1. Where the textarea is (where input, operation and output is given)
+2. Where the buttons would be placed -->
+
+<!-- The textarea would have invisible borders and a transpaprent/invisible background -->
+
+<!-- Grid alignment:
+    Container
+        Grid 1 (empty grid)
+
+        Grid 2
+            Grid 1
+            Grid 2 (horizontal grid)
+                Grid 1
+                Grid 2 (vertical grid)
+
+        Grid 3 (vertical grid)
+            Grid 1
+            Grid 2 (vertical grid)
+                Grid 1
+                Grid 2 (horizontal grid)
+               -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div class="container">
+        <div class="card-container">
+            <div class="card-container-grid empty-grid"></div>
+
+            <div class="card-container-grid" id="textarea-grid">
+               <textarea id="input" readonly></textarea>
+            </div>
+
+            <div class="card-container-grid" id="buttons-grid">
+                <div class="button-grid-body" id="top-symbol-grid">
+                    <button class="btn symbol" id="divide-btn" data-value="/">/</button>
+                    <button class="btn symbol" id="multiply-btn" data-value="*">X</button>
+                    <button class="symbol" id="reset-btn">C</button>
+                    <button class="symbol" id="delete-btn">Del</button>
+                </div>
+                
+                <div class="button-grid-body" id="number-grid">
+                    <div class="number-grid-body" id="digit-grid">
+                        <div class="first-number-grid">
+                            <button class="btn number-btn" id="number-one" data-value="1">1</button>
+                            <button class="btn number-btn" id="number-two" data-value="2">2</button>
+                            <button class="btn number-btn" id="number-three" data-value="3">3</button>
+                            <button class="btn number-btn" id="number-four" data-value="4">4</button>
+                            <button class="btn number-btn" id="number-five" data-value="5">5</button>
+                            <button class="btn number-btn" id="number-six" data-value="6">6</button>
+                            <button class="btn number-btn" id="number-seven" data-value="7">7</button>
+                            <button class="btn number-btn" id="number-eight" data-value="8">8</button>
+                            <button class="btn number-btn" id="number-nine" data-value="9">9</button>
+                        </div>
+                        <div class="second-number-grid">
+                            <button class=" btn number-btn" id="number-zero" data-value="0">0</button>
+                            <button class="btn number-btn" id="number-decimal" data-value=".">.</button>
+                        </div>
+                    </div>
+                    <div class="number-grid-body" id="right-symbol-grid">
+                        <button class="btn symbol" id="subtract-btn" data-value="-">-</button>
+                        <button class="btn symbol" id="add-btn" data-value="+">+</button>
+                        <button class="symbol" id="equal-btn">=</button>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    background-image: url(images/bg-image.svg);
+    background-size: cover;
+}
+
+
+.card-container{
+    max-width: 375px;
+    min-height: 90vh;
+    background: #eeeeee22;
+    /* border: solid 4px #eeeeee22; */
+    border-radius: 1.2rem;
+    box-shadow: 2px 0px 8px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 3vh;
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: 10% 25% 60%;
+    grid-row-gap: 12px;
+    align-content: center;
+}
+
+.card-container-grid{
+    /* border: solid 1px #eee; */
+    border-radius: 1.2rem;
+}
+
+#buttons-grid{
+    display: grid;
+    grid-template-rows: 15% 82%;
+    grid-row-gap: 3%;
+}
+
+/* .button-grid-body{
+    border: solid 1px ;
+} */
+
+#top-symbol-grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+button{
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #eeeeee56;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+    color: #17836c;
+    font-size: 1.2rem;
+    font-family: Inter;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: #009473;
+    color: #eee;
+    transform: scale(1.1);
+}
+
+#number-grid{
+    /* border: solid 1px ; */
+    display: grid;
+    grid-template-columns: 75% 22%;
+    gap: 3%;
+}
+
+.number-grid-body {
+    /* border: solid 1px; */
+    display: grid;
+    gap: 12px;
+}
+
+.first-number-grid{
+    /* border: solid 1px; */
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.second-number-grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: 65% 30%;
+    gap: 5%;
+}
+
+#digit-grid{
+    display: grid;
+    grid-template-rows: 75%;
+}
+
+#right-symbol-grid .symbol{
+    font-size: 1.8rem;
+}
+
+#textarea-grid{
+    /* border: solid 1px #eeeeee4d; */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: 89%;
+    /* gap: 10%; */  
+}
+
+textarea, button{
+    outline: none;
+}
+
+
+.textarea-grid-body{
+    /* border: solid 1px; */
+    border-radius: 1.2rem;
+}
+
+.input-grid-body{
+    text-align: right;
+    padding: 0 1rem;
+    color: #eeeeeebb;
+    font-family: Inter;
+    font-size: 1.4rem;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    border-radius: 1.2rem;
+    background: none;
+    border-color: #eeeeee00;
+    text-align: right;
+    padding: 1rem 1.2rem;
+    color: #eee;
+    font-size: 1.6rem;
+    font-family: Inter;
+}
+
+#equal-btn{
+    background-color: #009473;
+    color: #eee;
+}
