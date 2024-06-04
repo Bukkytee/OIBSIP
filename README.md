@@ -29,6 +29,8 @@ A simple, fully functional calculator built using HTML, CSS, and JavaScript. It 
 - The result will be displayed when you press the equals (`=`) button.
 - Use the clear (`C`) button to reset the calculator.
 
+
+![Calculator](https://github.com/yourusername/login-authentication-form/blob/main/images/login-page.png)
 ---
 
 ### Tribute Page
@@ -56,6 +58,8 @@ A tribute page dedicated to [Martin Luther King Jr], showcasing their biography,
 - Navigate through the content to learn about [Martin Luther King Jr].
 - The page adjusts to different screen sizes for optimal viewing.
 
+
+![Login Page](https://github.com/yourusername/login-authentication-form/blob/main/images/login-page.png)
 ---
 
 ### Todo Webapp
@@ -85,6 +89,8 @@ A dynamic todo web application built using HTML, CSS, and JavaScript. It allows 
 - Click on the buttons besides the task row to edit or delete the task, or mark it as complete.
 - The tasks will be saved in local storage, so they persist even after refreshing the page.
 
+
+![Login Page](https://github.com/yourusername/login-authentication-form/blob/main/images/login-page.png)
 ---
 
 ### Login Authentication Form
